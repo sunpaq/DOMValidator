@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>HTML only img. img src invalid</title>
+<script type="text/javascript" src="DOMValidator.js"></script>
+<script type="text/javascript">
+window.onload = function() {
+    var domChecker = new DOMValidator();
+    domChecker.enableLog = true;
+    domChecker.enableRedirect = false;
+    domChecker.checkDOM();
+};
+</script>
+</head>
+<body>
+<img src="xxx.png">
+</body>
+</html>
